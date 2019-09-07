@@ -1,0 +1,18 @@
+h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: darkblue;
+    letter-spacing: 0.5em;
+}
+
+h1{
+    background-color: darkred;
+    color: white;
+    padding: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,32 @@
+/*h1 {
+    color: red;
+    background-color: black;
+}
+
+p {
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+
+/* Seletor geral 
+
+*{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: green;
+}*/
+
+/* Seletor utilizando o id 
+
+#hx {
+    color: red;
+    background-color: black;
+}*/
+
+/* Seletor utilizando a class
+
+.fonte-h{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+
