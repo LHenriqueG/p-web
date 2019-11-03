@@ -1,0 +1,35 @@
+#box1{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+
+    background-color:rgba(0,255, 0, 0.5);
+    color: #fff;
+}
+
+#box2{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+
+    background-color: #0000dd;
+    opacity: 0.5;
+}
+
+#box3{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+
+    /*background: linear-gradient(gray,black);
+    background: linear-gradient(#22223d, #6565ff);
+    background: linear-gradient(to right, gray, black);
+    background: linear-gradient(to left, black, gray, green);
+    background: linear-gradient(to top, black, gray);*/
+
+    background: radial-gradient(red, yellow, green);
+    opacity: 0.8;
+}

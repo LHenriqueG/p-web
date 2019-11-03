@@ -1,10 +1,15 @@
-h1, p{
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    font-size: 100%;
+}
+
+h1, h2, p, h3{
+    font-family: Lato;
 }
 
 p{
     color: darkblue;
-    letter-spacing: 0.5em;
+    /*letter-spacing: 0.5em;*/
+    font-size: 1em; /*1em equivale a 16px*/
 }
 
 h1{
@@ -14,5 +19,19 @@ h1{
     text-transform: uppercase;
     text-align: center;
     text-decoration: underline;
+    letter-spacing: 0.3em;
     
+}
+
+h2{
+    font-size: 60px;
+    color: gray;
+    text-shadow: 5px 5px 10px black;
+}
+
+h3{
+    /*font-variant: small-caps; apenas a primeira letra fica com um fortmato diferente*/
+    font-weight: 600; /*peso da fonte, conforme o valor que você define, dependendo da fonte que
+    você está utilizando*/
+    font-size: 2.5em;
 }
