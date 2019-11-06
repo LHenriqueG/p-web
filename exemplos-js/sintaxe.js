@@ -165,10 +165,6 @@ console.log('Reprovados ', reprovados)
 
 */
 
-console.log(Math.max(10, 20))   //  20
-Math.max(-10, -20); // -10
-Math.max(-10, 20);  //  20
-
 // Funções
 
 // Literal
@@ -241,3 +237,68 @@ animal.dormir = function () {
 }
 
 animal.dormir()
+
+
+/*Função como retorno de função*/
+
+function somar(x, y) {
+    return function (z) {
+        console.log(x + y + z)
+    }
+}
+
+//somar(10, 10)(10);
+
+let temp = somar(10, 10)
+temp(10)
+
+//Arrow Functions
+
+function imprimirNome(nome) {
+    console.log(nome)
+}
+
+imprimirNome('Luís')
+
+//Utilizando funções anônimas somente para o mesmo exemplo
+
+let imprimirNomes = function (nome) {
+    console.log(nome)
+}
+
+imprimirNomes('Luís')
+
+//Maneira mais simplificada de escrever funções
+//parametros setas e instruções
+//Isso aqui abaixo é um Arrow Function - Não é muito vantajoso
+//Quando você tem apenas um parametro, os () é opcional
+// e quando você tem apenas uma instrução as {} são opcionais
+//Se você não tem parametro nenhum, você precisa abrir e fechar o ()
+//Se o arrow function quiser retornar algo, precisa-se colocar o return explícitamente, porém quando existe a palavra 
+//return tem que ter chaves
+
+
+
+let imprimirNome2 = (nome) => {
+    console.log(nome)
+}
+
+imprimirNome2('Luís')
+
+let imprimirNome3 = nome => console.log(nome)
+
+imprimirNome3('Luís')
+
+let helloworld = () => console.log('Olá, Mundo 2!')
+
+helloworld()
+
+let helloworld2 = () => 'Olá, Mundo!'
+
+console.log(helloworld2())
+
+let dobro = n => n * 2
+
+console.log(dobro(10))
+
+
